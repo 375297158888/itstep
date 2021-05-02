@@ -1,0 +1,29 @@
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    font-style: italic;
+}
+p{
+    font-size: 14px;
+}
+.clgreen{
+    color: hsl(115, 98%, 34%);
+}   
+.clwhite{
+    color: rgb(255, 255, 255);
+}
+.clbrown{
+    color: brown;
+}
+.clblue{
+    color: cadetblue;
+}
+.clchocalate{
+    color: #d2691e;
+}
+.cldarkolevegreen{
+    color: #55662f;
+}
