@@ -10,3 +10,7 @@ table {
     color: white;
     font-size: 40px;
 }
+.altop { vertical-align: top;}
+.albottom { vertical-align: bottom;}
+.alcenter { text-align: center;}
+.alright {text-align: right;}
