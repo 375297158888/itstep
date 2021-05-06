@@ -1,0 +1,28 @@
+p {
+    font-size: 30px;
+    color: rgba(105, 105, 105, 0.747);
+    word-spacing: 40px;
+    letter-spacing: 5px;
+}
+ins + span {
+    text-decoration: overline;
+}
+.primenumber {
+    font-weight: 900;
+   
+}
+ins del {
+    text-shadow: 5px 5px 5px #db650b;
+}
+ins del.primenumber {
+        font-size: 35px;
+}
+.pinga {
+    color: rgba(248, 126, 147, 0.5);
+}
+.square {
+    color: white;
+}
+.square:hover{
+    color: black;
+}
