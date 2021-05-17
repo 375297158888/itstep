@@ -1,6 +1,6 @@
 td {
     width: 100px;
-    height: 100px;
+    height: 70px;
     border: 1px solid #000;
 }
 table {
@@ -9,7 +9,21 @@ table {
     font-weight: 600;
     color: rgb(7, 7, 7);
     font-size: 40px;
+    text-align: center;
 }
-td:nth-child(n+6) {
-color: red;
-}
+#othday {color: rgb(175, 166, 166);}
+td:nth-child(n+6) {color: red;}
+
+.knowledgeholid {
+    color: red;
+    background: url(../imags/Knowledge_day.jfif);
+    background-size: cover;}
+
+.HappyBirthday {
+    color: red;
+    background: url(../imags/Happy_Birthday_Yan.jpg);
+    background-size: cover;}
+.programmersholid {
+    color: red;
+    background: url(../imags/programmers_day.jpg);
+    background-size: cover;}
