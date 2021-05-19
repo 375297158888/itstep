@@ -1,0 +1,38 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.in{
+    width: 400px;
+    height: 400px;
+    background: greenyellow; 
+    position: relative;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+.out{
+    width: 100px;
+    height: 100px;
+    background: chocolate;
+    position: relative;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;    
+}
+.out1{
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
+}
+.out2{
+   top: calc(50% - 400px);
+   left: calc(50% + 200px);
+}
+.out3{
+    top: calc(50% - 0px);
+    left: calc(50% + 200px);
+}
+.out4{
+    top: calc(50% - 100px);
+    left: calc(50% - 300px);
+}

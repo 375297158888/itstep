@@ -1,0 +1,34 @@
+.in{
+    width: 400px;
+    height: 400px;
+    background: greenyellow; 
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+.out{
+    width: 100px;
+    height: 100px;
+    background: chocolate;
+    position: absolute;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;    
+}
+.out1{
+    top: 400px;
+    left: -100px;
+}
+.out2{
+    left: -100px;
+    top: -100px;
+}
+.out3{
+    top: -100px;
+    left: 400px;
+}
+.out4{
+    left: 400px;
+    top: 400px;
+}

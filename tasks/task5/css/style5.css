@@ -1,0 +1,29 @@
+html, body{
+    width: 100%;
+    height: 100%;}
+.in{
+    border-top: 1px dashed transparent;
+    width: 400px;
+    height: 400px;
+    background: greenyellow; 
+    position: relative;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);}
+.out{
+    width: 100px;
+    height: 100px;
+    background: chocolate;
+    position: relative;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;}
+.out1{
+    margin-left: -100px;
+    margin-top: 400px;}
+.out2{
+    margin: -600px 0px 0px -100px;}
+.out3{
+    margin: -100px 0px 0px 400px;}
+.out4{
+    margin: 400px 0px 0px 400px;}
