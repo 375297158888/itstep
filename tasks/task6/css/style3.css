@@ -1,0 +1,39 @@
+html, body{
+}
+.main{
+    width: 400px;
+    height: 400px;
+    background: chocolate; 
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+.div{
+    position: relative;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.header1{
+    width: 100px;
+    height: 100px;
+    background:#000
+}
+.header2{
+    width: 100px;
+    height: 100px;
+    background:rgb(49, 49, 49)
+}
+.header{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    line-height: 100px;
+}
+.footer{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    position: fixed;
+    line-height: 100px; 

@@ -5,6 +5,7 @@ html, body{
     border-top: 1px dashed transparent;
     width: 400px;
     height: 400px;
+    float: left;
     background: greenyellow; 
     position: relative;
     top: calc(50% - 200px);
