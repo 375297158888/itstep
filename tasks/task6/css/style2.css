@@ -1,4 +1,4 @@
-.div{
+div{
     position: relative;
     float: left;
     text-align: center;
@@ -28,8 +28,8 @@
     height: 100px;
     background: rgb(30, 3, 184);}
 .footer-head{
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 200px;
     background: greenyellow;
     line-height: 200px;}
 .footer-foot{
