@@ -1,5 +1,5 @@
 body{
-	background: #000;
+	background: #fff;
 }
 div{
 	position: relative;
@@ -10,7 +10,7 @@ div{
 	width: 440px;
 	margin: 0 auto;
 	float: none;
-	background: #fff;
+	background: #000;
 }
 .row{
 	float: none;
@@ -58,25 +58,25 @@ div{
 }
 .block-1{
 	width: 100%;
-	border: 15px solid #fff;
+	border: 15px solid #000;
 	height: 150px;
 	background: #f00;
 }
 .block-15{
 	width: 100%;
-	border: 15px solid #fff;
+	border: 15px solid #000;
 	height: 225px;
 	background: #f00;
 }
 .block-2{
 	width: 100%;
-	border: 15px solid #fff;
+	border: 15px solid #000;
 	height: 300px;
 	background: #f00;
 }
 .block-3{
 	width: 100%;
-	border: 15px solid #fff;
+	border: 15px solid #000;
 	height: 450px;
 	background: #f00;
 }
@@ -145,25 +145,25 @@ div{
 	}
     .block-md-1{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 150px;
         background: #f00;
     }
     .block-md-15{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 225px;
         background: #f00;
     }
     .block-md-2{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 300px;
         background: #f00;
     }
     .block-md-3{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 450px;
         background: #f00;
     }
@@ -234,25 +234,25 @@ div{
 	}
 	.block-lg-1{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 150px;
         background: #f00;
     }
     .block-lg-15{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 225px;
         background: #f00;
     }
     .block-lg-2{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 300px;
         background: #f00;
     }
     .block-lg-3{
         width: 100%;
-        border: 15px solid #fff;
+        border: 15px solid #000;
         height: 450px;
         background: #f00;
     }
