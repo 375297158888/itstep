@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <form action="" method="post" name="reg_form" class="reg-form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="FIO">ФИО:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="text" name="FIO" id="FIO" value="" placeholder="Введите ФИО">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="Parol">Пароль:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="password" name="Parol" id="Parol" value="" placeholder="Введите пароль">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="Telefon">Мобильный номер:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="number" name="Telefon" id="Telefon" value="" placeholder="Введите номер">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="e-mail">E-mail:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="email" name="e-mail" id="e-mail" value="" placeholder="Введите адрес электронной почты">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="birthdaydate">Дата рождения:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <input type="date" name="birthdaydate" id="birthdaydate" value="" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-label">
+                                <label for="Hobby">Выберите хобби:</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-control">
+                                <div action="input1"> 
+                                    <input type="checkbox" name="Hobby[]" id="Hobby1" value="Hobby1"> Спорт
+                                    <input type="checkbox" name="Hobby[]" id="Hobby2" value="Hobby2"> Туризм
+                                    <input type="checkbox" name="Hobby[]" id="Hobby3" value="Hobby3"> Литература
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-label">
+                                    <label for="Education">Образование:</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div action="input2"> 
+                                    <input type="radio" name="Education1" id="Education1" value="Education1"> Высшее
+                                    <input type="radio" name="Education2" id="Education2" value="Education2"> Среднее-специальное
+                                    <input type="radio" name="Education3" id="Education3" value="Education3"> Среднее
+                                 </div>
+                            </div>
+                    </div>               
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
