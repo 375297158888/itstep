@@ -34,12 +34,13 @@
                             <div class="form-control">
                                 <input type="password" name="Parol" id="Parol" value="" placeholder="Введите пароль">
                             </div>
+                            <div class="error-text">Пароль не соответствует одному из критериев</div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-label">
-                                <label for="Telefon">Мобильный номер:</label>
+                                <label for="number">Мобильный номер:</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -51,7 +52,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-label">
-                                <label for="e-mail">E-mail:</label>
+                                <label for="email">E-mail:</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -75,32 +76,79 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-label">
-                                <label for="Hobby">Выберите хобби:</label>
+                                <label>Выберите хобби:</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-control">
-                                <div action="input1"> 
-                                    <input type="checkbox" name="Hobby[]" id="Hobby1" value="Hobby1"> Спорт
-                                    <input type="checkbox" name="Hobby[]" id="Hobby2" value="Hobby2"> Туризм
-                                    <input type="checkbox" name="Hobby[]" id="Hobby3" value="Hobby3"> Литература
+                                <div class="form-control-check"> 
+                                    <input type="checkbox" name="Hobby[]" id="Hobby1" value="Hobby1"><label for="Hobby1">Спорт</label>
+                                </div>
+                                <div class="form-control-check">
+                                    <input type="checkbox" name="Hobby[]" id="Hobby2" value="Hobby2"><label for="Hobby2">Туризм</label>
+                                </div>
+                                <div class="form-control-check">
+                                    <input type="checkbox" name="Hobby[]" id="Hobby3" value="Hobby3"><label for="Hobby3">Программирование</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-label">
+                                    <label>Образование:</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-control">
+                                    <div class="form-control-radio"> 
+                                        <input type="radio" name="Education" id="Education1" value="Education1"><label for="Education1"> Высшее</label>
+                                    </div>
+                                    <div class="form-control-radio">
+                                        <input type="radio" name="Education" id="Education2" value="Education2"><label for="Education2"> Среднее-специальное</label>
+                                    </div>
+                                    <div class="form-control-radio">
+                                        <input type="radio" name="Education" id="Education3" value="Education3"><label for="Education3"> Среднее</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-label">
-                                    <label for="Education">Образование:</label>
+                                    <label for="sex" id="sex">Укажите свой пол:</label>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div action="input2"> 
-                                    <input type="radio" name="Education1" id="Education1" value="Education1"> Высшее
-                                    <input type="radio" name="Education2" id="Education2" value="Education2"> Среднее-специальное
-                                    <input type="radio" name="Education3" id="Education3" value="Education3"> Среднее
-                                 </div>
+                                <div class="form-control">
+                                    <select name="sex" id="sex">
+                                        <option value="0">Выберите пол</option>
+                                        <option value="f">Женский</option>
+                                        <option value="m">Мужское</option>
+                                    </select>
+                                </div>
                             </div>
-                    </div>               
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-label">
+                                    <label for="avatar">Аватар:</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-control">
+                                    <input type="file" name="avatar" id="avatar" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6"></div>
+                            <div class="col-lg-6">
+                                <div class="form-control">
+                                    <button>Отправить</button>
+                                </div>
+                            </div>
+                        </div>               
                 </form>
             </div>
         </div>
