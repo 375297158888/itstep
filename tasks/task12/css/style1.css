@@ -1,36 +1,31 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 #oval {
     width: 200px;
     height: 100px;
     background: red;
     border-radius: 100px / 50px;
+    position: absolute;
+    left: 631px;
+    top: 433px;
   }
-#triangle-left {
+#triangle-right {
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
     border-right: 100px solid red;
     border-bottom: 50px solid transparent;
     position: absolute;
-    left: 520px;
-    top: 369px;
+    left: 718px;
+    top: 400px;
   }
-  #triangle-right {
+  #triangle-left {
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
     border-left: 100px solid red;
     border-bottom: 50px solid transparent;
     position: absolute;
-    left: 433px;
-    top: 370px;
+    left: 648px;
+    top: 400px;
 }
 #trapezoid {
     border-bottom: 100px solid red;
@@ -39,6 +34,7 @@ html, body{
     height: 0;
     width: 100px;
     position: absolute;
-    top: 512px;
-    left: 450px;
+    top: 514px;
+    left: 656px
   }
+ 

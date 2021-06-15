@@ -5,45 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style1.css">
-    <link rel="stylesheet" href="../task4/css/normalize.css">
-    <title>Homework.Form</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <title>Google-Form</title>
 </head>
 <body>
     <div class="container">
-        <div class="col-lg-8">
+        
+        <div class="col-lg-8 col-md-8 col-12">
             <form action="" method="post" name="reg_form" class="reg-form">
-                <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <img src="./img/Logo.JPG" alt="">
-                        </div>
-                        <div class="col-lg-12">
-                            <h1>Создайте аккаунт Google</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="form-control">
-                                <input type="text" name="FN" id="FN" value="" placeholder="Имя">
+                        <div class="col-lg-7 col-md-12 col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="./img/Logo.JPG" alt="">
+                                </div>
+                                <div class="col-12">
+                                    <div class="g-text">Создайте аккаунт Google</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-control">
-                                <input type="text" name="SN" id="SN" value="" placeholder="Фамилия">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-12 error">
+                                            <div class="form-control">
+                                                <input type="text" name="FN" id="FN" value="" placeholder="Имя">
+                                                <svg aria-hidden="true" class="stUf5b LxE1Id" fill="#d93025" focusable="false" width="16px" height="16px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path>
+                                                </svg>
+                                                <label for="name" class="error-text">Введите имя и фамилию</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12 error">
+                                            <div class="form-control">
+                                                <input type="text" name="SN" id="SN" value="" placeholder="Фамилия">
+                                            </div>
+                                        </div>   
+                                        <div class="col-12 error">
+                                            <div class="form-control Username">
+                                                <input type="text" name="email" value="" placeholder="Имя пользователя                                            @gmail.com" class="email">
+                                             </div>
+                                             <svg aria-hidden="true" class="stUf5b LxE1Id" fill="#d93025" focusable="false" width="16px" height="16px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path>
+                                            </svg>
+                                            <label for="name" class="error-text">Имя пользователя может включать латинские буквы (a-z), цифры (0-9) и точку (.).</label>
+                                         </div>
+                                         <div class="current_email">
+                                            <a href="#" class="current_email">Создать вместо этого адрес электронной почты в Gmail</a>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12 error">
+                                            <div class="form-control">
+                                                <input type="password" name="password" id="password" value="" placeholder="Пароль">                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="form-control">
+                                                <input type="password" name="Confirm" id="Confirm" value="" placeholder="Подтвердить">
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-12">
+                                            <svg aria-hidden="true" class="stUf5b LxE1Id" fill="#d93025" focusable="false" width="16px" height="16px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path>
+                                            </svg>
+                                            <label for="name" class="error-text">Пароль не может быть короче 8 символов</label> 
+                                        </div>                                                                               
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="form-control">
+                                                <div class="form-control-check">
+                                                    <input type="checkbox" name="Show_password[]" id="Show_password" value="Show_password"><label for="Show_password">Показать пароль</label>
+                                                </div>
+                                            </div>                   
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-12">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="current_email">
+                                                        <a href="#" class="current_email">Войти</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-control">
+                                                        <button>Далее</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                
                             </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="form-control">
-                            <input type="email" name="E-mail" id="E-mail" value="" placeholder="Имя пользователя">
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <div class="row">
+                                    <div class="col-lg-12 d-none d-lg-block">
+                                        <div class="img">
+                                            <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 d-none d-lg-block">
+                                        <div class="g-text2">Один аккаунт&nbsp;– для всех сервисов Google.</div>
+                                    </div>
+                                </div>
+                            </div>                  
                         </div>
-                        <div class="text">Можно использовать буквы латинского алфавита, цифры и точки</div>
-                    </div>
-                    </div>    
-                </div>
-                <div class="col-lg-4">
-                    <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" border="0" width="244" height="244" hspace="0" align="centr">
-                    <figcaption class="text">Один аккаунт&nbsp;– для всех сервисов Google.</figcaption>
-                </div>
+                    </div>  
+                
             </form>
         </div>
     </div>
