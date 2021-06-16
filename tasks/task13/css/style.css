@@ -1,0 +1,55 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+a{
+    position: fixed;
+    display: block;
+    color: #fff;
+    background: #000;
+    padding: 15px 20px;
+    top: 40px;
+}
+.start{
+    left: calc(50% - 150px);
+}
+.end{
+    left: calc(50% + 30px);
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background: chartreuse;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 0px solid #456783;
+    transition-property: border,width,height,transform;
+    transition-duration: 3s;
+}
+.box:target{
+    width: 0;
+    height: 0;
+    border: 200px solid #456783;
+    transform: rotate(360deg);
+}
+.circl{    
+    width: 200px;
+    height: 200px;
+    background: rgb(38, 0, 255);
+    border-radius: 50%;
+    transition-property: width,height,background;
+    transition-duration: 3s;
+}
+.circl:hover{
+    height: 10px;
+    width: 10px;
+    background: rgb(36, 71, 0);
+}
