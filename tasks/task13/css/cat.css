@@ -24,8 +24,8 @@ html,body{
     position: absolute;
     left: 277px;
     top: 204px;
-    transition-property: width, height;
-    transition-duration: 2s;
+    transition-property: transform, top;
+    transition-duration: 1s;
   }
 .triangle-right {
     width: 0;
@@ -75,9 +75,9 @@ a{
 .end{
     left: calc(50% + 30px);
 }
-.oval:target{
-    width: 10px;
-    height: 5px;
+#oval:target .oval{
+    transform: rotate(5deg);
+    top: 220px
 }
 .triangle-left:hover{
     top: 179px
@@ -85,7 +85,6 @@ a{
 .triangle-right:hover{
     top: 179px
 }
-
 
 @keyframes run{
     0%{
