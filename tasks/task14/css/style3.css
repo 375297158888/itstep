@@ -1,0 +1,37 @@
+ul.menu1{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+ul.menu1 > li{
+    position: relative;
+    top: 240px;
+    left: 990px;
+    width: 281px;
+    margin: -169px;
+    padding: 15px;
+    height: 60px;
+    display: block;
+    box-sizing: border-box;
+    background: #00e70c;
+    transform: rotate(-65deg);
+    transition-property: top, left;
+    transition-duration: 1s;
+}
+ul.menu1 > li > a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    min-width: 100px;    
+}
+ul.menu1 > li > a > span{
+    line-height: 24px;
+}
+ul.menu1 > li > a:hover{
+    left: 1100px;
+    top: 550px;
+}
+ul.menu1 > li:hover > a{
+    left: 1100px;
+    top: 550px;
+}
