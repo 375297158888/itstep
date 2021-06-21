@@ -7,7 +7,7 @@ ul.menu1 > li{
     position: relative;
     top: 240px;
     left: 990px;
-    width: 281px;
+    width: 271px;
     margin: -169px;
     padding: 15px;
     height: 60px;
@@ -27,11 +27,11 @@ ul.menu1 > li > a{
 ul.menu1 > li > a > span{
     line-height: 24px;
 }
-ul.menu1 > li > a:hover{
-    left: 1100px;
-    top: 550px;
+ul.menu1 > li:hover{
+    left: 990px;
+    top: 300px;
 }
-ul.menu1 > li:hover > a{
-    left: 1100px;
-    top: 550px;
+.seg {
+    top: 240px;
+    left: 990px;
 }

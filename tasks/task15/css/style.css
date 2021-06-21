@@ -1,0 +1,84 @@
+body{
+    background: url("../img/pattern.png") repeat;
+}
+header{
+    background: #fff;
+    padding: 28px 0 0 0;
+    position: relative;
+}
+.logo{
+
+}
+.logo a{
+    text-decoration: none;
+}
+.logo img{
+
+}
+.logo span{
+    font: 300 10px 'Roboto';
+    color: #8c8c8c;
+    margin-left: 1px;
+    margin-top: -2px;
+}
+.head-contact{
+    float: right;
+}
+.head-contact span{
+    font: 13px 'Asap';
+    color: #8c8c8c;
+    text-align: right;
+    margin-bottom: 14px;
+}
+.head-contact a{
+    color: #dc6511;
+    font: 13px 'Asap';    
+    text-decoration: none;
+}
+.main-menu{
+    display: flex;    
+    list-style-type: none;
+}
+.main-menu > li {
+    
+}
+.main-menu > li > a {
+    color: #595252;
+    position: relative;
+    line-height: 22px;
+    font: bold 15px 'Asap';
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100px;
+    
+}
+.main-menu > li > a.active {
+    color: #dc6511;
+    
+}
+.main-menu > li > a > span {
+    
+}
+.main-menu > li > ul {
+    
+}
+.main-menu > li > ul > li{
+    
+}
+.main-menu > li > ul > li > a {
+}   
+.main-menu > li > ul > li > a > span {
+    
+}
+.main-menu > li > ul > li > ul {
+    
+}
+.main-menu > li > ul > li > ul > li {
+    
+}
+.main-menu > li > ul > li > ul > li > a {
+}   
+.main-menu > li > ul > li > ul > li > a > span {
+    
+}
