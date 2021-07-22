@@ -1,0 +1,59 @@
+$white: #fff;
+$white2: #eee;
+$blue: #6C8CD5;
+$blue2: #1DA1F2;
+$blue3: #027ba5;
+$blue_hover: #516fb5;
+$dark_blue: #00294e;
+$dark_blue2: #3C5B9B;
+$tranparent_white: rgba(161, 169, 172, 0.5);
+$black: #000;
+$grey: #989898;
+$grey2: #747474;
+$grey3: #999;
+$grey4: #444;
+$grey5: #666;
+$light_grey: #ededed;
+$light_grey2: #c0c0c0;
+$light_grey3: #e5e5e5;
+$light_grey4: #ddd;
+$light_grey5: #F2F2F2;
+$dark_grey2: #333;
+$dark_grey: #303030;
+$dark_grey3: #222;
+$dark_grey4: #1a1a1a;
+$red: #f00;
+$red2: #E60023;
+$red3: #FF0000;
+$coral: #fd4f57;
+$yellow: #fcaf45;
+$font: 3px;
+$R: 'Roboto';
+$ss: sans-serif;
+
+@mixin base_button {
+    min-width: 240px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    padding: 25px 10px 27px;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+    text-align: center;
+    @include large_font {
+        font-size: 20px;
+    }
+}
+@mixin Awesome {
+    font-family: Font Awesome 5 Free;
+    content: "\f0e0";
+}
+$social-colors: (
+  fb: #3C5B9B,
+  in: #fcaf45,
+  li: #027ba5,
+  tw: #3C5B9B,
+  yt: #FF0000,
+  pt: #E60023
+);
