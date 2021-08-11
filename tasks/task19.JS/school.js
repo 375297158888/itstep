@@ -24,6 +24,19 @@ firstNumber = Math.floor (number / 100);
 secondNumber = Math.floor (number / 10);
 secondNumber = secondNumber % 10;
 sumNumber = firstNumber + secondNumber + thirdNumber;
-reversNumber = firstNumber + secondNumber + thirdNumber;
-console.log (firstNumber, secondNumber, thirdNumber, sumNumber);
+console.log (sumNumber);
+
+reversNumber = reversNumber + thirdNumber + secondNumber + firstNumber;
 console.log (reversNumber);
+
+var credit = 1000;
+credit = credit + (credit * 0.1);
+credit = credit + (credit * 0.1);
+credit = credit + (credit * 0.1);
+credit = credit - 1000;
+console.log(credit);
+
+var min = 1, max = 100, randomNumber;
+randomNumber = Math.random() * (max - min + 1) + min;
+randomNumber = Math.floor (randomNumber / 1); 
+console.log(randomNumber);
