@@ -37,6 +37,6 @@ credit = credit - 1000;
 console.log(credit);
 
 var min = 1, max = 100, randomNumber;
-randomNumber = Math.random() * (max - min + 1) + min;
+randomNumber = min + Math.random() * (max - min);
 randomNumber = Math.floor (randomNumber / 1); 
 console.log(randomNumber);
