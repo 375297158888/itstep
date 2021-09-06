@@ -22,4 +22,6 @@ console.log(a.slice (0, 3)); // #7
 console.log(a.slice(3, 5)); // #8
 
 a = [1, 2, 3, 4, 5]
-console.log(a.splice(1, 4, 4, 5)); // #9
+a.splice(1, 2)
+console.log(a); // #9
+

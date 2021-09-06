@@ -4,7 +4,7 @@ if (x % 2 == 0) {
 } else {
     console.log("Не чётное");
 }
-    let y = 2231;
+    let y = 2104;
 
 if (y % 400 == 0 || y % 4 == 0 && y % 100 !=0){
     console.log("Высокосный")
@@ -12,7 +12,7 @@ if (y % 400 == 0 || y % 4 == 0 && y % 100 !=0){
 else {
     console.log("Не высокосный")
 }
-    let mushrooms = 13151565161;
+    let mushrooms = 1;
 
 if (mushrooms % 100 > 10  && mushrooms % 100 < 20 || 
     mushrooms % 10 > 4 && mushrooms % 10 < 10 ||
